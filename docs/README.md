@@ -7,7 +7,7 @@
 
 ### Out-of-Character Contextual Information for PowerUp!
 
-Swift 4 | HTML | CSS/LESS | JavaScript | VueJS | GoJS | jQuery
+Swift 4 | HTML | LESS/CSS | JavaScript | VueJS | GoJS | jQuery
 
 #### GSoC Summary
 
