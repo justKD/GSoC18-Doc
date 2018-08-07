@@ -61,9 +61,8 @@ self.view.addSubview(sequenceView)
 ```
 
 - [Story Sequence Player API Docs](https://justkd.github.io/powerup-iOS/Classes/StorySequencePlayer.html)
-- [View in the powerup-ios repository](https://github.com/systers/powerup-iOS)
-- [View relevant code directly in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
-- [View my commits](https://github.com/systers/powerup-iOS/pull/315)
+- [View relevant code stored in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
+- View in the powerup-ios repository - [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
 
 ***
 
@@ -85,9 +84,8 @@ self.view.addSubview(popup)
 ```
 
 - [Popup Event Player API Docs](https://justkd.github.io/powerup-iOS/Classes/PopupEventPlayer.html)
-- [View in the powerup-ios repository](https://github.com/systers/powerup-iOS)
-- [View relevant code directly in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
-- [View my commits](https://github.com/systers/powerup-iOS/pull/315)
+- [View relevant code stored in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
+- View in the powerup-ios repository - [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
 
 ***
 
@@ -135,9 +133,8 @@ view.setSpring(damping, velocity).translate(by: [50, 0], then: {
 ```
 
 - [Animate API Docs](https://justkd.github.io/powerup-iOS/Classes/Animate.html)
-- [View in the powerup-ios repository](https://github.com/systers/powerup-iOS)
-- [View relevant code directly in this archive](https://github.com/justKD/GSoC18-Doc/blob/master/PowerUp-iOS/OOC-Event-Classes/Animate.swift)
-- [View my commits](https://github.com/systers/powerup-iOS/pull/315)
+- [View relevant code stored in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
+- View in the powerup-ios repository - [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
 
 ***
 
