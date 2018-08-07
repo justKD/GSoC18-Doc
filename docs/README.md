@@ -7,7 +7,11 @@
 
 ### Out-of-Character Contextual Information for PowerUp!
 
+Tech |
 Swift 4 | HTML5 | LESS/CSS | JavaScript ES6 | VueJS 2 | GoJS | jQuery 3
+
+Deliverables |
+[Story Sequences](#story-sequences) | [Popup Notifications](#popup-notifications) | [Story Sequence Designer](#powerup-story-sequence-designer) | [Scenario Builder](#powerup-scenario-builder) | [Animate](#animate)
 
 #### GSoC Summary
 
@@ -35,16 +39,11 @@ As I worked on the designs, I wanted more and more for the apps to be a part of 
 
 Ultimately, I designed, developed, and delivered:
 
-- [Story Sequences](#story-sequences) - Swift classes for implementing automated story sequences that augment the question/answer scenarios.
->
-- [Popup Notifications](#popup-notifications) - Swift classes for implementing notification popups throughout the app.
->
-- [Story Sequence Designer](#powerup-story-sequence-designer) - A VueJS web app for designing, writing, and maintaining story sequences.
->
-- [Scenario Builder](#powerup-scenario-builder) - A GoJS web app for writing and maintaining scenario question and answer datasets using an interactive graphical map.
->
-- [Animate](#animate) - A Swift class for scripting staged animations.
->
+[Story Sequences](#story-sequences) | Swift classes for implementing automated story sequences that augment the question/answer scenarios.
+[Popup Notifications](#popup-notifications) | Swift classes for implementing notification popups throughout the app.
+[Story Sequence Designer](#powerup-story-sequence-designer) | A VueJS web app for designing, writing, and maintaining story sequences.
+[Scenario Builder](#powerup-scenario-builder) | A GoJS web app for writing and maintaining scenario question and answer datasets using an interactive graphical map.
+[Animate](#animate) | A Swift class for scripting staged animations.
 
 You can get a glimpse into my development processes and more detailed info about each deliverable via the section links below and by checking out my [GSoC weekly reports](https://github.com/systers/powerup-iOS/wiki/GSoC-2018-Cadence-Holmes).
 
