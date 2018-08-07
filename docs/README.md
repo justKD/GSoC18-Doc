@@ -15,15 +15,15 @@ PowerUp is a mobile game by Systers Open Source. It's in the style of a choose-y
 
 When I first tried PowerUp, one of the things I noticed was the abruptness of the actual story elements. At that time, it didn't seem to leave much flexibility for writing immersive stories and characters, and I felt that could also limit the ability to give clear real-world information about potentially difficult story content. This led me to my [original proposal](https://summerofcode.withgoogle.com/projects/#5377389622722560): to add features meant to improve the story telling aspect and to provide out-of-character information such as statistics or professional statements.
 
-Before I really had a sense of the state of the writing, I had intended for a significant part of my timeline to be adding content after the features were implemented.
+Before I really had a sense of the state of the writing, I had intended for a part of my timeline to be adding content after the features were implemented.
 
-As it turned out, there were already ongoing efforts to make significant updates to the existing scenes. The features I wanted to add were still relevant, but it didn't seem like adding story content would be efficient since the writing could change drastically.
+As it turned out, there were already ongoing efforts to make significant updates to the existing scenes. The features I wanted to add were still relevant, but it didn't seem like adding story content would be time-efficient since the writing could change drastically.
 
-That's when I suggested amending my project goals and timeline. I thought it would be more beneficial (but still in the spirit of my original proposal) to finish the intended features for PowerUp, then create utility applications to help write and maintain the story elements.
+That's when I suggested amending my project goals and timeline. After finishing the new features, I thought it would be more beneficial (but still in the spirit of my original proposal) to create utility applications intended to help write and maintain the story elements.
 
-The Systers mentors and admins were receptive to the idea. I had already created a basic GoJS app to map the scenario database for myself, so I was able to use that as a starting point/proof-of-concept.
+The Systers mentors and admins were receptive to the idea. Since I had already created a basic GoJS app to map the scenario database for myself, I was able to use that as a starting point/proof-of-concept. I ended up creating two web apps in addition to the iOS features I developed in PowerUp, and I think these results will prove to have much more value over time.
 
-This has been a great experience for me, and I've written about my takeaway [here on Medium](https://medium.com/@justKD/finishing-up-gsoc-2018-with-systers-open-source-ebf56a740560).
+GSoC has been a great experience for me, and I've written about my takeaway [here on Medium](https://medium.com/@justKD/finishing-up-gsoc-2018-with-systers-open-source-ebf56a740560).
 
 >In the end, I’ve certainly learned some new tricks, but, for me, the most valuable part of this experience has been the accountability. That may sound odd, but it’s really helped me to shift how I think about my code.
 
