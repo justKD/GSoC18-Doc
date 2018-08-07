@@ -2,6 +2,6 @@ This repository aggregates all of the work I did for [Google Summer of Code 2018
 
 It contains only my own work and only as it existed at the end of the project.
 
-Please see the documentation site at:
+For details, links to project repos, and links to live apps, please see the documentation site at:
 
 [https://justkd.github.io/GSoC18-Doc/](https://justkd.github.io/GSoC18-Doc/)
