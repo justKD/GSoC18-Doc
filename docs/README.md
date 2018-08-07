@@ -7,6 +7,8 @@
 
 ### Out-of-Character Contextual Information for PowerUp!
 
+Swift 4 | HTML | CSS/LESS | JavaScript | VueJS | GoJS | jQuery
+
 #### GSoC Summary
 
 PowerUp is a mobile game by Systers Open Source. It's in the style of a choose-your-own-adventure interactive graphic novel but includes mini-games and character development elements. The target audience for the game is preteen girls, and the goal is to teach adolescent sexual health and safety.
