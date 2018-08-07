@@ -7,10 +7,10 @@
 
 ### Out-of-Character Contextual Information for PowerUp!
 
-Tech |
+###### Tech
 Swift 4 | HTML5 | LESS/CSS | JavaScript ES6 | VueJS 2 | GoJS | jQuery 3
 
-Deliverables |
+###### Deliverables
 [Story Sequences](#story-sequences) | [Popup Notifications](#popup-notifications) | [Story Sequence Designer](#powerup-story-sequence-designer) | [Scenario Builder](#powerup-scenario-builder) | [Animate](#animate)
 
 #### GSoC Summary
