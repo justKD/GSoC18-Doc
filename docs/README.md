@@ -133,7 +133,7 @@ view.setSpring(damping, velocity).translate(by: [50, 0], then: {
 ```
 
 Animate API Docs | [Link](https://justkd.github.io/powerup-iOS/Classes/Animate.html)
-View relevant code stored in this archive | [Link](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
+View relevant code stored in this archive | [Link](https://github.com/justKD/GSoC18-Doc/blob/master/PowerUp-iOS/OOC-Event-Classes/Animate.swift)
 View in the powerup-ios repository | [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
 
 ***
