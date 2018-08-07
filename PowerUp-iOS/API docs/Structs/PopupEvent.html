@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PopupEvent Structure Reference</title>
+  <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+  <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+  <meta charset='utf-8'>
+  <script src="../js/jquery.min.js" defer></script>
+  <script src="../js/jazzy.js" defer></script>
+
+</head>
+
+<body>
+  <a name="//apple_ref/swift/Struct/PopupEvent" class="dashAnchor"></a>
+  <a title="PopupEvent Structure Reference"></a>
+  <header>
+    <div class="content-wrapper">
+      <p>
+        <a href="../index.html"> Docs</a> (Only GSoC 2018 Features)</p>
+    </div>
+  </header>
+  <div class="content-wrapper">
+    <p id="breadcrumbs">
+      <a href="../index.html"> Reference</a>
+      <img id="carat" src="../img/carat.png" /> PopupEvent Structure Reference
+    </p>
+  </div>
+  <div class="content-wrapper">
+    <nav class="sidebar">
+      <ul class="nav-groups">
+        <li class="nav-group-name">
+          <a href="">Classes</a>
+          <ul class="nav-group-tasks">
+            <li class="nav-group-task">
+              <a href="../Classes/StorySequencePlayer.html">StorySequencePlayer</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Classes/PopupEventPlayer.html">PopupEventPlayer</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Classes/Animate.html">Animate</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Classes/SoundPlayer.html">SoundPlayer</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-group-name">
+          <a href="">Protocols</a>
+          <ul class="nav-group-tasks">
+            <li class="nav-group-task">
+              <a href="../Protocols/StorySequencePlayerDelegate.html">StorySequencePlayerDelegate</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Protocols/PopupEventPlayerDelegate.html">PopupEventPlayerDelegate</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-group-name">
+          <a href="">Structures</a>
+          <ul class="nav-group-tasks">
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequence.html">StorySequence</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequence/Sounds.html">– Sounds</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequence/Images.html">– Images</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequence/ImagePosition.html">– ImagePosition</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequence/ImageAnimation.html">– ImageAnimation</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequence/Step.html">– Step</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequence/Event.html">– Event</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/StorySequences.html">StorySequences</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/PopupEvent.html">PopupEvent</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/PopupEvents.html">PopupEvents</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/PopupEvents/PopupType.html">– PopupType</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../Structs/PopupEvents/PopupCollection.html">– PopupCollection</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <article class="main-content">
+      <section>
+        <section class="section">
+          <h1>PopupEvent</h1>
+          <div class="declaration">
+            <div class="language">
+              <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">PopupEvent</span></code></pre>
+
+            </div>
+          </div>
+          <p>Struct defining Event model for individual popups.</p>
+          <pre class="highlight swift"><code><span class="o">-</span> <span class="kt">Parameters</span><span class="p">:</span>
+    <span class="o">-</span> <span class="nv">topText</span><span class="p">:</span> <span class="kt">The</span> <span class="n">larger</span> <span class="n">text</span> <span class="n">at</span> <span class="n">the</span> <span class="n">top</span> <span class="n">of</span> <span class="n">the</span> <span class="n">popup</span><span class="o">.</span> <span class="kt">Contained</span> <span class="k">in</span> <span class="n">its</span> <span class="n">own</span> <span class="p">`</span><span class="nv">UILabel</span><span class="p">`</span><span class="o">.</span>
+    <span class="o">-</span> <span class="nv">botText</span><span class="p">:</span> <span class="kt">The</span> <span class="n">smaller</span> <span class="n">text</span> <span class="n">at</span> <span class="n">the</span> <span class="n">bottom</span> <span class="n">of</span> <span class="n">the</span> <span class="n">popup</span><span class="o">.</span> <span class="kt">Contained</span> <span class="k">in</span> <span class="n">its</span> <span class="n">own</span> <span class="p">`</span><span class="nv">UILabel</span><span class="p">`</span><span class="o">.</span>
+    <span class="o">-</span> <span class="nv">imgName</span><span class="p">:</span> <span class="kt">The</span> <span class="n">file</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">image</span> <span class="n">asset</span> <span class="n">to</span> <span class="n">use</span> <span class="k">as</span> <span class="n">a</span> <span class="n">badge</span> <span class="n">icon</span><span class="o">.</span> <span class="kt">Ignored</span> <span class="k">if</span> <span class="n">left</span> <span class="p">`</span><span class="nv">nil</span><span class="p">`</span><span class="o">.</span>
+    <span class="o">-</span> <span class="nv">slideSound</span><span class="p">:</span> <span class="kt">The</span> <span class="n">file</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">media</span> <span class="n">asset</span> <span class="n">to</span> <span class="n">be</span> <span class="n">played</span> <span class="n">when</span> <span class="n">the</span> <span class="n">popup</span> <span class="k">is</span> <span class="n">slides</span> <span class="n">into</span> <span class="n">view</span><span class="o">.</span> <span class="kt">No</span> <span class="n">sound</span> <span class="k">is</span> <span class="n">played</span> <span class="k">if</span> <span class="n">left</span> <span class="p">`</span><span class="nv">nil</span><span class="p">`</span><span class="o">.</span>
+    <span class="o">-</span> <span class="nv">badgeSound</span><span class="p">:</span> <span class="kt">The</span> <span class="n">file</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">media</span> <span class="n">asset</span> <span class="n">to</span> <span class="n">be</span> <span class="n">played</span> <span class="n">when</span><span class="o">/</span><span class="k">if</span> <span class="n">a</span> <span class="n">badge</span> <span class="n">icon</span> <span class="k">is</span> <span class="n">displayed</span><span class="o">.</span> <span class="kt">No</span> <span class="n">sound</span> <span class="k">is</span> <span class="n">played</span> <span class="k">if</span> <span class="n">left</span> <span class="p">`</span><span class="nv">nil</span><span class="p">`</span><span class="o">.</span>
+</code></pre>
+          <div class="aside aside-author">
+            <p class="aside-title">Author</p>
+            Cadence Holmes 2018
+
+          </div>
+
+        </section>
+        <section class="section task-group-section">
+          <div class="task-group">
+            <ul>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup10PopupEventV7topTextSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/topText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup10PopupEventV7topTextSSSgvp">topText</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">topText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup10PopupEventV7botTextSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/botText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup10PopupEventV7botTextSSSgvp">botText</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">botText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup10PopupEventV7imgNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/imgName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup10PopupEventV7imgNameSSSgvp">imgName</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imgName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup10PopupEventV10slideSoundSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/slideSound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup10PopupEventV10slideSoundSSSgvp">slideSound</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">slideSound</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup10PopupEventV10badgeSoundSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/badgeSound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup10PopupEventV10badgeSoundSSSgvp">badgeSound</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">badgeSound</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup10PopupEventVACSSSg7topText_AD03botE0AD7imgNameAD10slideSoundAD05badgeJ0tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(topText:botText:imgName:slideSound:badgeSound:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup10PopupEventVACSSSg7topText_AD03botE0AD7imgNameAD10slideSoundAD05badgeJ0tcfc">init(topText:botText:imgName:slideSound:badgeSound:)</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">topText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">botText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">imgName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">slideSound</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">badgeSound</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section id="footer">
+        <p>&copy; 2018
+          <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-08-06)</p>
+        <p>Generated by
+          <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a
+          <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      </section>
+    </article>
+  </div>
+</body>
+</div>
+
+</html>

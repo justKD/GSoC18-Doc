@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ImagePosition Enumeration Reference</title>
+  <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+  <meta charset='utf-8'>
+  <script src="../../js/jquery.min.js" defer></script>
+  <script src="../../js/jazzy.js" defer></script>
+
+</head>
+
+<body>
+  <a name="//apple_ref/swift/Enum/ImagePosition" class="dashAnchor"></a>
+  <a title="ImagePosition Enumeration Reference"></a>
+  <header>
+    <div class="content-wrapper">
+      <p>
+        <a href="../../index.html"> Docs</a> (Only GSoC 2018 Features)</p>
+    </div>
+  </header>
+  <div class="content-wrapper">
+    <p id="breadcrumbs">
+      <a href="../../index.html"> Reference</a>
+      <img id="carat" src="../../img/carat.png" /> ImagePosition Enumeration Reference
+    </p>
+  </div>
+  <div class="content-wrapper">
+    <nav class="sidebar">
+      <ul class="nav-groups">
+        <li class="nav-group-name">
+          <a href="">Classes</a>
+          <ul class="nav-group-tasks">
+            <li class="nav-group-task">
+              <a href="../../Classes/StorySequencePlayer.html">StorySequencePlayer</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Classes/PopupEventPlayer.html">PopupEventPlayer</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Classes/Animate.html">Animate</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Classes/SoundPlayer.html">SoundPlayer</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-group-name">
+          <a href="">Protocols</a>
+          <ul class="nav-group-tasks">
+            <li class="nav-group-task">
+              <a href="../../Protocols/StorySequencePlayerDelegate.html">StorySequencePlayerDelegate</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Protocols/PopupEventPlayerDelegate.html">PopupEventPlayerDelegate</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-group-name">
+          <a href="">Structures</a>
+          <ul class="nav-group-tasks">
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequence.html">StorySequence</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequence/Sounds.html">– Sounds</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequence/Images.html">– Images</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequence/ImagePosition.html">– ImagePosition</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequence/ImageAnimation.html">– ImageAnimation</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequence/Step.html">– Step</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequence/Event.html">– Event</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/StorySequences.html">StorySequences</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/PopupEvent.html">PopupEvent</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/PopupEvents.html">PopupEvents</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/PopupEvents/PopupType.html">– PopupType</a>
+            </li>
+            <li class="nav-group-task">
+              <a href="../../Structs/PopupEvents/PopupCollection.html">– PopupCollection</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <article class="main-content">
+      <section>
+        <section class="section">
+          <h1>ImagePosition</h1>
+          <div class="declaration">
+            <div class="language">
+              <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">ImagePosition</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+            </div>
+          </div>
+          <p>These are the possible positions for an image. StorySequencePlayer interprets these cases per left and right.</p>
+
+          <p>Near describes the image being close to the edge of the screen, and far describes the image being close to the
+            middle of the screen. Mid is the middle of those positions.</p>
+
+          <p>** This enum typically won&rsquo;t need to change or be updated, but if any are made, make sure to also reflect
+            those changes in the PowerUp Story Designer web app.</p>
+
+        </section>
+        <section class="section task-group-section">
+          <div class="task-group">
+            <ul>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup13StorySequenceV13ImagePositionO5casesSayAEGvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/cases" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup13StorySequenceV13ImagePositionO5casesSayAEGvpZ">cases</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">cases</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../Structs/StorySequence.html">StorySequence</a></span><span class="o">.</span><span class="kt">ImagePosition</span><span class="p">]</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup13StorySequenceV13ImagePositionO6hiddenA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/hidden" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup13StorySequenceV13ImagePositionO6hiddenA2EmF">hidden</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">case</span> <span class="n">hidden</span> <span class="o">=</span> <span class="s">"hidden"</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup13StorySequenceV13ImagePositionO4nearA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/near" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup13StorySequenceV13ImagePositionO4nearA2EmF">near</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">case</span> <span class="n">near</span> <span class="o">=</span> <span class="s">"near"</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup13StorySequenceV13ImagePositionO3midA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/mid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup13StorySequenceV13ImagePositionO3midA2EmF">mid</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mid</span> <span class="o">=</span> <span class="s">"mid"</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+              <li class="item">
+                <div>
+                  <code>
+                    <a name="/s:7Powerup13StorySequenceV13ImagePositionO3farA2EmF"></a>
+                    <a name="//apple_ref/swift/Element/far" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Powerup13StorySequenceV13ImagePositionO3farA2EmF">far</a>
+                  </code>
+                </div>
+                <div class="height-container">
+                  <div class="pointer-container"></div>
+                  <section class="section">
+                    <div class="pointer"></div>
+                    <div class="abstract">
+                      <p>Undocumented</p>
+
+                    </div>
+                    <div class="declaration">
+                      <h4>Declaration</h4>
+                      <div class="language">
+                        <p class="aside-title">Swift</p>
+                        <pre class="highlight swift"><code><span class="k">case</span> <span class="n">far</span> <span class="o">=</span> <span class="s">"far"</span></code></pre>
+
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section id="footer">
+        <p>&copy; 2018
+          <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-08-06)</p>
+        <p>Generated by
+          <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a
+          <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      </section>
+    </article>
+  </div>
+</body>
+</div>
+
+</html>
