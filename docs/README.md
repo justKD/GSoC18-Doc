@@ -25,6 +25,12 @@ This has been a great experience for me, and I've written about my takeaway [her
 
 >In the end, I’ve certainly learned some new tricks, but, for me, the most valuable part of this experience has been the accountability. That may sound odd, but it’s really helped me to shift how I think about my code.
 
+#### Future Work
+
+As I worked on the designs, I wanted more and more for the apps to be a part of a single ecosystem. I'd like to see the web apps unified with shared and collaborative work spaces and data, and the output to be built along with PowerUp, rather than having to be manually imported into the project. Plans for these features are currently being outlined via git issues in the respective project repos.
+
+#### Deliverables
+
 Ultimately, I designed, developed, and delivered:
 
 - [Story Sequences](#story-sequences) - Swift classes for implementing automated story sequences that augment the question/answer scenarios.
@@ -41,7 +47,7 @@ Ultimately, I designed, developed, and delivered:
 You can get a glimpse into my development processes and more detailed info about each deliverable via the section links below and by checking out my [GSoC weekly reports](https://github.com/systers/powerup-iOS/wiki/GSoC-2018-Cadence-Holmes).
 
 ***
-### Story Sequences
+#### Story Sequences
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/storysequenceplayerdemo.gif?raw=true)
 
@@ -61,7 +67,7 @@ self.view.addSubview(sequenceView)
 ***
 
 
-### Popup Notifications
+#### Popup Notifications
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/popupdemo.gif?raw=true)
 
@@ -83,7 +89,7 @@ self.view.addSubview(popup)
 
 ***
 
-### Story Sequence Designer
+#### Story Sequence Designer
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/storydesigner.jpg?raw=true)
 
@@ -95,7 +101,7 @@ Web app built with the stateful framework [VueJS](https://vuejs.org/v2/guide/).
 
 ***
 
-### Scenario Builder
+#### Scenario Builder
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/scenariobuilder.png?raw=true)
 
@@ -107,7 +113,7 @@ Web app built with the interactive diagram library [GoJS](https://gojs.net/lates
 
 ***
 
-### Animate
+#### Animate
 
 I developed `Animate.swift` in order to better handle animations in story sequences. It's meant to simplify chaining together animation events in order to build more complex asynchronous animations with a readable syntax.
 
