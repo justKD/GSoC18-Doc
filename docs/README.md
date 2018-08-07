@@ -60,9 +60,9 @@ let sequenceView: StorySequencePlayer = StorySequencePlayer(delegate: self, mode
 self.view.addSubview(sequenceView)
 ```
 
-- [Story Sequence Player API Docs](https://justkd.github.io/powerup-iOS/Classes/StorySequencePlayer.html)
-- [View relevant code stored in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
-- View in the powerup-ios repository - [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
+Story Sequence Player API Docs | [Link](https://justkd.github.io/powerup-iOS/Classes/StorySequencePlayer.html)
+View relevant code stored in this archive | [Link](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
+View in the powerup-ios repository | [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
 
 ***
 
@@ -83,9 +83,9 @@ let popup: PopupEventPlayer = PopupEventPlayer(model)
 self.view.addSubview(popup)
 ```
 
-- [Popup Event Player API Docs](https://justkd.github.io/powerup-iOS/Classes/PopupEventPlayer.html)
-- [View relevant code stored in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
-- View in the powerup-ios repository - [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
+Popup Event Player API Docs | [Link](https://justkd.github.io/powerup-iOS/Classes/PopupEventPlayer.html)
+View relevant code stored in this archive | [Link](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
+View in the powerup-ios repository | [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
 
 ***
 
@@ -95,9 +95,9 @@ self.view.addSubview(popup)
 
 Web app built with the stateful framework [VueJS](https://vuejs.org/v2/guide/).
 
-- [Story Sequence Designer Docs](http://systers.io/powerup-story-designer/)
-- [View on Github](https://github.com/systers/powerup-story-designer)
-- [Live App](https://rawgit.com/systers/powerup-story-designer/master/index.html)
+Story Sequence Designer Docs - [Link](http://systers.io/powerup-story-designer/)
+View on Github - [Link](https://github.com/systers/powerup-story-designer)
+Live App | [Link](https://rawgit.com/systers/powerup-story-designer/master/index.html)
 
 ***
 
@@ -107,9 +107,9 @@ Web app built with the stateful framework [VueJS](https://vuejs.org/v2/guide/).
 
 Web app built with the interactive diagram library [GoJS](https://gojs.net/latest/index.html).
 
-- [Scenario Builder Docs](http://systers.io/powerup-scenario-builder/)
-- [View on Github](https://github.com/systers/powerup-scenario-builder)
-- [Live App](https://rawgit.com/systers/powerup-scenario-builder/master/index.html)
+Scenario Builder Docs | [Link](http://systers.io/powerup-scenario-builder/)
+View on Github | [Link](https://github.com/systers/powerup-scenario-builder)
+Live App | [Link](https://rawgit.com/systers/powerup-scenario-builder/master/index.html)
 
 ***
 
@@ -132,9 +132,9 @@ view.setSpring(damping, velocity).translate(by: [50, 0], then: {
 })
 ```
 
-- [Animate API Docs](https://justkd.github.io/powerup-iOS/Classes/Animate.html)
-- [View relevant code stored in this archive](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
-- View in the powerup-ios repository - [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
+Animate API Docs | [Link](https://justkd.github.io/powerup-iOS/Classes/Animate.html)
+View relevant code stored in this archive | [Link](https://github.com/justKD/GSoC18-Doc/tree/master/PowerUp-iOS)
+View in the powerup-ios repository | [Files](https://github.com/systers/powerup-iOS/tree/gsoc18-code/Powerup/OOC-Event-Classes) | [Commits](https://github.com/systers/powerup-iOS/pull/315/commits)
 
 ***
 
