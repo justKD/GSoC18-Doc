@@ -95,8 +95,8 @@ View in the powerup-ios repository | [Files](https://github.com/systers/powerup-
 
 Web app built with the stateful framework [VueJS](https://vuejs.org/v2/guide/).
 
-Story Sequence Designer Docs - [Link](http://systers.io/powerup-story-designer/)
-View on Github - [Link](https://github.com/systers/powerup-story-designer)
+Story Sequence Designer Docs | [Link](http://systers.io/powerup-story-designer/)
+View on Github | [Link](https://github.com/systers/powerup-story-designer)
 Live App | [Link](https://rawgit.com/systers/powerup-story-designer/master/index.html)
 
 ***
