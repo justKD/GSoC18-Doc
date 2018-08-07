@@ -1,5 +1,5 @@
 # Cadence Holmes
-## Google Summer of Code with Systers Open Source
+## Google Summer of Code 2018 with Systers Open Source
 
 [@justKD](https://github.com/justKD/GSoC18-Doc) | [@systers](https://github.com/systers) | [cady.notnatural.co](http://cady.notnatural.co) | [systers.io](http://systers.io)
 
@@ -7,7 +7,7 @@
 
 ### Out-of-Character Contextual Information for PowerUp!
 
-Swift 4 | HTML5 | LESS/CSS | JavaScript ES6 | VueJS | GoJS | jQuery
+Swift 4 | HTML5 | LESS/CSS | JavaScript ES6 | VueJS 2 | GoJS | jQuery 3
 
 #### GSoC Summary
 
@@ -49,7 +49,7 @@ Ultimately, I designed, developed, and delivered:
 You can get a glimpse into my development processes and more detailed info about each deliverable via the section links below and by checking out my [GSoC weekly reports](https://github.com/systers/powerup-iOS/wiki/GSoC-2018-Cadence-Holmes).
 
 ***
-#### Story Sequences
+### Story Sequences
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/storysequenceplayerdemo.gif?raw=true)
 
@@ -69,7 +69,7 @@ View in the powerup-ios repository | [Files](https://github.com/systers/powerup-
 ***
 
 
-#### Popup Notifications
+### Popup Notifications
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/popupdemo.gif?raw=true)
 
@@ -91,7 +91,7 @@ View in the powerup-ios repository | [Files](https://github.com/systers/powerup-
 
 ***
 
-#### Story Sequence Designer
+### Story Sequence Designer
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/storydesigner.jpg?raw=true)
 
@@ -103,7 +103,7 @@ Live App | [Link](https://rawgit.com/systers/powerup-story-designer/master/index
 
 ***
 
-#### Scenario Builder
+### Scenario Builder
 
 ![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/scenariobuilder.png?raw=true)
 
@@ -115,7 +115,7 @@ Live App | [Link](https://rawgit.com/systers/powerup-scenario-builder/master/ind
 
 ***
 
-#### Animate
+### Animate
 
 I developed `Animate.swift` in order to better handle animations in story sequences. It's meant to simplify chaining together animation events in order to build more complex asynchronous animations with a readable syntax.
 
