@@ -1,14 +1,3 @@
-https://github.com/systers/powerup-scenario-builder
-https://github.com/systers/powerup-story-designer
-https://github.com/systers/powerup-iOS
-
-http://systers.io/powerup-scenario-builder/
-http://systers.io/powerup-story-designer/
-https://justkd.github.io/powerup-iOS/
-
-
-https://github.com/systers/powerup-iOS/pull/315
-
 # Cadence Holmes
 ## Google Summer of Code with Systers Open Source
 
@@ -18,7 +7,7 @@ https://github.com/systers/powerup-iOS/pull/315
 
 ### Out-of-Character Contextual Information for PowerUp!
 
-#### Summary
+#### GSoC Summary
 
 PowerUp is a mobile game by Systers Open Source. It's in the style of a choose-your-own-adventure interactive graphic novel but includes mini-games and character development elements. The target audience for the game is preteen girls, and the goal is to teach adolescent sexual health and safety.
 
@@ -30,44 +19,119 @@ As it turned out, there were already ongoing efforts to make significant updates
 
 That's when I suggested amending my project goals and timeline. I thought it would be more beneficial (but still in the spirit of my original proposal) to finish the intended features for PowerUp, then create utility applications to help write and maintain the story elements.
 
-In the end, I designed and developed:
+The Systers mentors and admins were receptive to the idea. I had already created a basic GoJS app to map the scenario database for myself, so I was able to use that as a starting point/proof-of-concept.
+
+This has been a great experience for me, and I've written about my takeaway [here on Medium](https://medium.com/@justKD/finishing-up-gsoc-2018-with-systers-open-source-ebf56a740560).
+
+>In the end, I’ve certainly learned some new tricks, but, for me, the most valuable part of this experience has been the accountability. That may sound odd, but it’s really helped me to shift how I think about my code.
+
+Ultimately, I designed, developed, and delivered:
 
 - [Story Sequences](#story-sequences) - Swift classes for implementing automated story sequences that augment the question/answer scenarios.
 >
 - [Popup Notifications](#popup-notifications) - Swift classes for implementing notification popups throughout the app.
 >
-- [Animate](#animate) - A Swift class for scripting staged animations.
+- [Story Sequence Designer](#powerup-story-sequence-designer) - A VueJS web app for designing, writing, and maintaining story sequences.
 >
 - [Scenario Builder](#powerup-scenario-builder) - A GoJS web app for writing and maintaining scenario question and answer datasets using an interactive graphical map.
 >
-- [Story Sequence Designer](#powerup-story-sequence-designer) - A VueJS web app for designing, writing, and maintaining story sequences .
+- [Animate](#animate) - A Swift class for scripting staged animations.
+>
+
+You can get a glimpse into my development processes and more detailed info about each deliverable via the section links below and by checking out my [GSoC weekly reports](https://github.com/systers/powerup-iOS/wiki/GSoC-2018-Cadence-Holmes).
 
 ***
 ### Story Sequences
 
-![](https://github.com/justKD/Powerup-Story-Designer/blob/dev/docs/images/2-ingame-example.gif?raw=true)
+![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/storysequenceplayerdemo.gif?raw=true)
+
+The following example locates a sequence in the database and launches the player. This class handles its own interactions and lifecycle, so, aside from the optional delegate methods, no other code is required to manage the event.
+```
+let scenarioID = 5
+guard let model = StorySequences().getStorySequence(scenario: scenarioID) else { return }
+
+let sequenceView: StorySequencePlayer = StorySequencePlayer(delegate: self, model: model, firstTime: firstTime())
+self.view.addSubview(sequenceView)
+```
+
+- [Story Sequence Player API Docs](https://justkd.github.io/powerup-iOS/Classes/StorySequencePlayer.html)
+- [View on Github](https://github.com/systers/powerup-iOS)
+- [View my commits](https://github.com/systers/powerup-iOS/pull/315)
 
 ***
 
 
 ### Popup Notifications
 
+![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/popupdemo.gif?raw=true)
 
-***
+Adding a popup only requires a PopupEvent model. This class handles its own interactions and lifecycle, so, aside from the optional delegate methods, no other code is required to manage the event.
+```
+let model = PopupEvent(topText: "Made with ♥",
+                       botText: "by Systers Open Source",
+                       imgName: "thisPopupBadgeImage",
+                       slideSound: "showPopupSound",
+                       badgeSound: nil)
 
+let popup: PopupEventPlayer = PopupEventPlayer(model)
+self.view.addSubview(popup)
+```
 
-### Animate
-
-
-***
-
-
-### Scenario Builder
-
+- [Popup Event Player API Docs](https://justkd.github.io/powerup-iOS/Classes/PopupEventPlayer.html)
+- [View on Github](https://github.com/systers/powerup-iOS)
+- [View my commits](https://github.com/systers/powerup-iOS/pull/315)
 
 ***
 
 ### Story Sequence Designer
 
+![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/storydesigner.jpg?raw=true)
+
+Web app built with the stateful framework [VueJS](https://vuejs.org/v2/guide/).
+
+- [Story Sequence Designer Docs](http://systers.io/powerup-story-designer/)
+- [View on Github](https://github.com/systers/powerup-story-designer)
+- [Live App](https://rawgit.com/systers/powerup-story-designer/master/index.html)
 
 ***
+
+### Scenario Builder
+
+![](https://github.com/justKD/GSoC18-Doc/blob/master/docs/images/scenariobuilder.png?raw=true)
+
+Web app built with the interactive diagram library [GoJS](https://gojs.net/latest/index.html).
+
+- [Scenario Builder Docs](http://systers.io/powerup-scenario-builder/)
+- [View on Github](https://github.com/systers/powerup-scenario-builder)
+- [Live App](https://rawgit.com/systers/powerup-scenario-builder/master/index.html)
+
+***
+
+### Animate
+
+I developed `Animate.swift` in order to better handle animations in story sequences. It's meant to simplify chaining together animation events in order to build more complex asynchronous animations with a readable syntax.
+
+Basic use:
+```
+Animate(view, duration).setOptions(.curveLinear).rotate(to: 90)
+```
+
+Asynchronous chaining:
+```
+let view = Animate(view, duration)
+view.setSpring(damping, velocity).translate(by: [50, 0], then: {
+    view.flip().shake(then: {
+       view.reset()
+    })
+})
+```
+
+- [Animate API Docs](https://justkd.github.io/powerup-iOS/Classes/Animate.html)
+- [View on Github](https://github.com/systers/powerup-iOS)
+- [View my commits](https://github.com/systers/powerup-iOS/pull/315)
+
+***
+
+
+
+
