@@ -98,7 +98,7 @@ View in the powerup-ios repository | [Files](https://github.com/systers/powerup-
 
 Web app built with the stateful framework [VueJS](https://vuejs.org/v2/guide/).
 
-Story Sequence Designer Docs | [Link](http://systers.io/powerup-story-designer/)
+Story Sequence Designer Docs | [Link](http://systers.github.io/powerup-story-designer/)
 View on Github | [Link](https://github.com/systers/powerup-story-designer)
 Live App | [Link](https://rawgit.com/systers/powerup-story-designer/master/index.html)
 
@@ -110,7 +110,7 @@ Live App | [Link](https://rawgit.com/systers/powerup-story-designer/master/index
 
 Web app built with the interactive diagram library [GoJS](https://gojs.net/latest/index.html).
 
-Scenario Builder Docs | [Link](http://systers.io/powerup-scenario-builder/)
+Scenario Builder Docs | [Link](http://systers.github.io/powerup-scenario-builder/)
 View on Github | [Link](https://github.com/systers/powerup-scenario-builder)
 Live App | [Link](https://rawgit.com/systers/powerup-scenario-builder/master/index.html)
 
